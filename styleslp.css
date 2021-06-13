@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	background: url(file:///C:/Users/Ehryka/Documents/landing%20page%20pics/lp2.jpg);
+	background-color: dodgerblue;
+	background-size: cover;
+	height: 100vh;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5)
+}
+.logo{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px 100px;
+	color: white;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	transition: .4s;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	padding: 5px;
+	background: red;
+	border-radius: 2px;
+}
+.entire .mainpage{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	user-select: none;
+	
+}
+.mainpage h1{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+}
+.mainpage h3{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+	margin-top: 10px;
+}
+.mainpage .button{
+	text-align: center;
+	margin: 35px 300px;
+}
+.button button{
+	height: 40px;
+	width: 100px;
+	padding-top: 2px;
+	font-size: 15px;
+	font-weight:bold;
+	border: 1px solid #c00;
+	background: red;
+	color: #d8e5ff;
+	border-radius: 30px;
+	cursor: pointer;
+	outline: none;
+	transition: .5s;
+}
+.button .buttn{
+	margin-left: 20px;
+}
+.button button:hover{
+	background: #cc0000;
+	color: white;
+}
+footer{
+    background: rgba(255, 255, 255;
+	color: black;
+	height: calc(100vh - 100px)
+	
+}
