@@ -1,2 +1,3 @@
-# Futuristica-landing-page
-Simple landing page. Background Artwork by me
+# landing-page
+Simple landing page. 
+Background Art by ericametta
